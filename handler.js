@@ -16,6 +16,6 @@ module.exports.gimmetime = async (event) => {
 
   return {
     statusCode: '200',
-    body: `The time in ${tz} is: ${moment.tz(tz).format()}`
+    body: `The time is 9999 in ${tz} is: ${moment.tz(tz).format()}`
   };
 };
